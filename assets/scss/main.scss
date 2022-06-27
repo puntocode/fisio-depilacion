@@ -1,0 +1,75 @@
+@import 'variables';
+@import 'fonts';
+
+html {
+  scroll-behavior: smooth; //click e ir a esa seccion
+}
+
+body{font-family: $poppins;}
+h1{color: $primary; font-weight: 600; font-size: 2.5rem;}
+h2{color: $primary; font-weight: 600;}
+
+.scrollspy{position: relative;}
+.text-primary{color: $primary !important}
+.text-secondary{color: $secondary}
+.btn-primary{background: $primary; background: $primary-gradient; border: none;}
+.icon-invert{filter: invert(1);}
+.nav-link.active {color: $primary !important;}
+
+
+.card-benefit{
+  border: 2px solid $primary;
+  border-radius: 15px;
+  img{width: 50px; height: 50px;}
+  p{color: $primary; font-weight: 600; margin: 0;}
+}
+
+.menu{
+  height: 20rem;
+  position:relative;
+  background-image: url("/images/bg-fixed.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.consultas {
+  background: $primary; background: $primary-gradient;
+  color: #fff;
+  p {font-size: 1.5rem;margin: 0;}
+  a { color: #fff;font-size: 1.7rem; text-decoration: none;
+      img {filter: invert(1); height: 2.5rem; margin-top: -.3rem;}
+  }
+}
+
+.footer{background-color: #38424D; color: white;
+  .logo{width: 12rem;}
+  .accesos{padding: 0; margin-top: 1rem;
+    li{ list-style: none; padding: .5rem 0;
+      a{text-decoration: none; color: white;
+        &:hover { color: $primary; text-decoration: none;}
+      }
+    }
+  }
+  .text-punto{color: #25C340; margin-left: 5px; text-decoration: none;}
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 25px;
+  background-color: $primary;
+  background: $primary-gradient;
+  border-radius: 50px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {filter: invert(1);height: 1.8rem; }
+}
+
+
+@import 'queries';
