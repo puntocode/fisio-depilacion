@@ -4,7 +4,7 @@
       v-for="(promo, i) in promotions"
       :key="i">
 
-      <div class="card border-0">
+      <div class="card border-0 w-100">
         <img :src="promo.url" class="card-img-top" :alt="promo.title">
         <div class="card-body">
           <h4 class="m-0">{{ promo.title }}</h4>
