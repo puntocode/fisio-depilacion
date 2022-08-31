@@ -72,7 +72,7 @@ export default {
     return {
       contactos: [
         {link: 'https://wa.link/ce8hrb', img: 'images/icons/icon-contacto-whatsapp.svg', icon: 'whatsapp', text: '0981196291'},
-        {link: 'https://wa.link/b13x2v', img: 'images/icons/icon-contacto-gmail.svg', icon: 'email', text: 'fisiostetik.com.py'},
+        {link: 'https://wa.link/b13x2v', img: 'images/icons/icon-contacto-gmail.svg', icon: 'email', text: 'fisiostetik.py@gmail.com'},
         {link: 'https://wa.link/b13x2v', img: 'images/icons/icon-contacto-web.svg', icon: 'web', text: 'www.fisiostetik.com.py'},
         {link: 'https://wa.link/b13x2v', img: 'images/icons/icon-contacto-map.svg', icon: 'mapa', text: 'Campos Cervera 5175'}
       ],
