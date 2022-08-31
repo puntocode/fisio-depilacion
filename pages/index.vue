@@ -145,9 +145,9 @@ export default {
         {src: 'images/icons/icon-laser-3.webp', text: 'No maltrata tu piel' },
       ],
       benefits_two: [
-        {src: 'images/icons/icon-laser-4.webp', text: 'Eliminación del vello de manera definitiva' },
-        {src: 'images/icons/icon-laser-5.webp', text: 'Adiós a los vellos enterrados' },
-        {src: 'images/icons/icon-laser-6.webp', text: 'No maltrata tu piel' },
+        {src: 'images/icons/icon-laser-6.webp', text: 'Ahorro a largo plazo' },
+        {src: 'images/icons/icon-laser-5.webp', text: 'Poros cerrados' },
+        {src: 'images/icons/icon-laser-4.webp', text: 'Piel más suave' },
       ],
 
     }
